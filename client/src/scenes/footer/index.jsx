@@ -13,7 +13,7 @@ const index = () => {
                 <h3
                     onClick={() =>
                         window.open(
-                            "https://shanmukhanaparthi.pythonanywhere.com/",
+                            "https://shanmukh25.vercel.app/",
                             "_blank"
                         )
                     }
