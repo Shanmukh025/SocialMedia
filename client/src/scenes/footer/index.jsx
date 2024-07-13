@@ -1,5 +1,3 @@
-import React from "react";
-
 const index = () => {
     return (
         <>
@@ -11,14 +9,18 @@ const index = () => {
                 }}
             >
                 <h3
+                    style={{ textDecoration: "none" }}
+                    onMouseOver={(e) =>
+                        (e.currentTarget.style.textDecoration = "underline")
+                    }
+                    onMouseOut={(e) =>
+                        (e.currentTarget.style.textDecoration = "none")
+                    }
                     onClick={() =>
-                        window.open(
-                            "https://shanmukh25.vercel.app/",
-                            "_blank"
-                        )
+                        window.open("https://shanmukh25.vercel.app/", "_blank")
                     }
                 >
-                    Spark by Shanmukh.
+                    Spark. Developed by Shanmukh.
                 </h3>
             </footer>
         </>
